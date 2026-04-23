@@ -136,7 +136,7 @@ LVM allows flexible disk management:
 
 **SSH**
 
-SSH (Secure Shell) is a protocol that allows secure remote access to the server.
+Secure Shell is a protocol that allows secure remote access to the server.
 
 - Uses encryption
 - Client-server architecture
@@ -177,9 +177,9 @@ Functions:
 
 AppArmor is a Mandatory Access Control (MAC) system.
 
-    - Restrict the actions that processes can perform.
-    - Protects system resources
-    - Enabled by default in Debian
+- Restrict the actions that processes can perform.
+- Protects system resources
+- Enabled by default in Debian
 
 | Feature    | AppArmor      | SELinux       |
 | ---------- | ------------- | ------------- |
