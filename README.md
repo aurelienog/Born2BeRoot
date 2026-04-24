@@ -415,14 +415,18 @@ This section describes how to install, configure, and reproduce the project.
     ```
 
 11) **Password Policy**
+
     Edit:
         ```/etc/login.defs```
+
     Set rules (example):
+
         ```
         PASS_MAX_DAYS 30
         PASS_MIN_DAYS 2
         PASS_WARN_AGE 7
         ```
+        
     And configure PAM:
     ```/etc/pam.d/common-password```
 
